@@ -7,3 +7,7 @@
 5. Gli insegnanti utilizzano GitHub Education per invitare gli studenti a seguire i tutorial e portare a termine i compiti. A questo scopo, ad ogni insegnante è richiesto di creare una organizzazione nella quale creare i compiti per gli studenti con lo scopo di sfruttare il sandboxing automatico.
 6. Dato che vi saranno molti partecipanti, non possiamo permetterci una revisione del codice per ogni studente. In alternativa, si puà sfruttare il sistema di valutazione automatico per stimolare gli studenti e far comprendere agli insegnanti quali di loro restano indietro e quindi hanno bisogno di aiuto.
 7. Il materiale specifico alla scuola itismajo/majo-git{YY} puà essere inserito nel repository majo-git{YY}. Al contrario, per organizzare materiale che può essere riciclato da un anno all'altro, si può contare su repository individuali ospitati nella organizzazione itismajo (nominandoli materiali_qualchecosa), oppure a risorse esterne linkate. Si prega di non usare 
+## Preparare il repository majo-git{YY}
+## Preparare le organizzazioni degli argomenti disciplinari di majo-git{YY}
+## Valutazione automatica
+## Archiviazione del materiale completato
