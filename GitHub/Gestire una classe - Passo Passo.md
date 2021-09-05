@@ -1,1 +1,9 @@
-
+# Gestire una classe - Passo Passo
+## Introduzione
+1. YY è l'anno scolastico (per esempio 20, 21,...).
+2. Il repository itismajo/majo-git{YY} rappresenta l'atrio della scuola, ovvero il punto d'ingresso. E' il luogo digitale dove gestiremo il Wiki, il sistema di D&R (domande e risposte), il materiale didattico (collegamenti alle slides) e, in generale, tutte le risorse di cui abbiamo bisogno. Con le GitHub Pages possiamo formattare il tutto in modo gradevole. _TODO MAJO: Questa parte si può lasciare su Moodle inserendo una semplice pagina introduttiva sul ruolo di GitHub nel corso_.
+3. Ogni giorno terremo un corso (ovvero, cinematica, dinamica, visone,...) che consiste in appunti teorici condivisi durente le lezioni teoriche e in sessioni di laboratorio.  _TODO MAJO: Questi possono corrispondere agli argomenti disciplinari_
+4. Gli insegnanti hanno due strumenti durante le attività di laboratorio e le lezioni teoriche: i tutorial e i compiti. Questi corrispondono a singoli repository memorizzati nella organizzazione itismajo.
+5. Gli insegnanti utilizzano GitHub Education per invitare gli studenti a seguire i tutorial e portare a termine i compiti. A questo scopo, ad ogni insegnante è richiesto di creare una organizzazione nella quale creare i compiti per gli studenti con lo scopo di sfruttare il sandboxing automatico.
+6. Dato che vi saranno molti partecipanti, non possiamo permetterci una revisione del codice per ogni studente. In alternativa, si puà sfruttare il sistema di valutazione automatico per stimolare gli studenti e far comprendere agli insegnanti quali di loro restano indietro e quindi hanno bisogno di aiuto.
+7. Il materiale specifico alla scuola itismajo/majo-git{YY} puà essere inserito nel repository majo-git{YY}. Al contrario, per organizzare materiale che può essere riciclato da un anno all'altro, si può contare su repository individuali ospitati nella organizzazione itismajo (nominandoli materiali_qualchecosa), oppure a risorse esterne linkate. Si prega di non usare 
