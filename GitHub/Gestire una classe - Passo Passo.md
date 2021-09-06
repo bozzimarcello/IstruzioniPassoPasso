@@ -1,13 +1,18 @@
 # Gestire una classe - Passo Passo
-## Introduzione
-1. YY è l'anno scolastico (per esempio 20, 21,...).
-2. Il repository itismajo/majo-git{YY} rappresenta l'atrio della scuola, ovvero il punto d'ingresso. E' il luogo digitale dove gestiremo il Wiki, il sistema di D&R (domande e risposte), il materiale didattico (collegamenti alle slides) e, in generale, tutte le risorse di cui abbiamo bisogno. Con le GitHub Pages possiamo formattare il tutto in modo gradevole. _TODO MAJO: Questa parte si può lasciare su Moodle inserendo una semplice pagina introduttiva sul ruolo di GitHub nel corso_.
-3. Ogni giorno terremo un corso (ovvero, cinematica, dinamica, visone,...) che consiste in appunti teorici condivisi durente le lezioni teoriche e in sessioni di laboratorio.  _TODO MAJO: Questi possono corrispondere agli argomenti disciplinari_
-4. Gli insegnanti hanno due strumenti durante le attività di laboratorio e le lezioni teoriche: i tutorial e i compiti. Questi corrispondono a singoli repository memorizzati nella organizzazione itismajo.
-5. Gli insegnanti utilizzano GitHub Education per invitare gli studenti a seguire i tutorial e portare a termine i compiti. A questo scopo, ad ogni insegnante è richiesto di creare una organizzazione nella quale creare i compiti per gli studenti con lo scopo di sfruttare il sandboxing automatico.
-6. Dato che vi saranno molti partecipanti, non possiamo permetterci una revisione del codice per ogni studente. In alternativa, si puà sfruttare il sistema di valutazione automatico per stimolare gli studenti e far comprendere agli insegnanti quali di loro restano indietro e quindi hanno bisogno di aiuto.
-7. Il materiale specifico alla scuola itismajo/majo-git{YY} puà essere inserito nel repository majo-git{YY}. Al contrario, per organizzare materiale che può essere riciclato da un anno all'altro, si può contare su repository individuali ospitati nella organizzazione itismajo (nominandoli materiali_qualchecosa), oppure a risorse esterne linkate. Si prega di non usare 
-## Preparare il repository majo-git{YY}
-## Preparare le organizzazioni degli argomenti disciplinari di majo-git{YY}
-## Valutazione automatica
-## Archiviazione del materiale completato
+## Schema generale
+1. Una **organization** raccoglie una serie di **classrooms**, contiene i **repository** pubblici da condividere con gli studenti (*starter code*, *tutorial*, ecc.). NB conterrà tutti i **repository** individuali degli studenti provenienti dall'accettazione degli **assignements**
+2. Una **classroom** raccoglie una serie di **assignements** e il **rooster** degli allievi
+3. Ogni **assignment** genera un **repository** per allievo nella **organization**
+4. Le **pull requests** consentono al docente di revisionare il codice e inviare feedback puntuali all'allievo
+
+## Come organizzare una classe
+1. Creare una **organization** per ogni materia di una determinata classe di un determinato anno, utilizzando i prefissi per tenere tutto ordinato, per esempio ItisMajo-2021-3DINFO-Informatica oppure ItisMajo-2021-3DINFO-TPSIT
+2. Creare una **classroom** per ogni argomento della materia da agganciare alla **organization** anche qui usando un criterio di suddivisione basata sui prefissi, per esempio info-console-io oppure tele-web-html-basilare
+3. Inserire un elenco di identificativi (cognome.nome oppure email) nel **rooster** della **classroom** per distinguere gli allievi
+4. Aggiungere alla **organization** i **repository** template da usare come base per gli **assignements**
+
+## Aggiungere uno studente al **rooster** (con il primo assignment)
+1. L'insegnante crea un **assignment** e ne condivide il link con lo studente (mail o Moodle)
+2. L'allievo visita il link ed accetta l'**assignment** dando il consenso all'accesso con il proprio **account GitHub**. Gli viene chiesto di sceglere il proprio identificativo nella **classroom**
+3. Viene creato un **repository**, specifico per quell'allievo, nella **organization** collegata alla **classroom**
+4. L'allievo trova nel **repository** l'eventuale codice di partenza e può modificare o aggiungere file a piacere
