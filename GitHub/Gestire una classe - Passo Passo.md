@@ -20,5 +20,5 @@
 
 ## Revisionare i lavori consegnati
 Se la revisione non riguarda codice, la revisione puà essere fatta tutta nel browser su github.com. Altrimenti si hanno varie scelte:
-1. Usare l'applicazione Classroom Assistant per scaricare tutti i **repository** di un **assignement**
+1. Usare l'applicazione Classroom Assistant per scaricare tutti i **repository** di un **assignement** (https://github.com/education/classroom-assistant/releases)
 2. Usare Visual Studio o Visual Studio Code, clonare un **repository** alla volta e correggere
