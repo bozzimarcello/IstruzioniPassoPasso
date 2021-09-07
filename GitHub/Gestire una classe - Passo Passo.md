@@ -1,6 +1,6 @@
 # Gestire una classe - Passo Passo
 ## Schema generale
-1. Una **organization** raccoglie una serie di **classrooms**, contiene i **repository** pubblici da condividere con gli studenti (*starter code*, *tutorial*, ecc.). NB conterrà tutti i **repository** individuali degli studenti provenienti dall'accettazione degli **assignements**
+1. Una **organization** raccoglie una serie di **classrooms**, contiene i **repository** pubblici da condividere con gli studenti (*starter code*, *tutorial*, ecc.). NB conterrà anche tutti i **repository** individuali degli studenti provenienti dall'accettazione degli **assignements**
 2. Una **classroom** raccoglie una serie di **assignements** e il **rooster** degli allievi
 3. Ogni **assignment** genera un **repository** per allievo nella **organization**
 4. Le **pull requests** consentono al docente di revisionare il codice e inviare feedback puntuali all'allievo
@@ -10,7 +10,8 @@
 2. Ogni volta che deve iniziare un nuovo **assignement** riceve un link dall'insegnante (da Moodle, via mail, ecc.). Il link di avvio dell'**assignement** è lo stesso per tutta la classe.
 3. Quando visita li link, accede al proprio account GitHub e accetta l'**assignement**. Viene creato un **repository** specifico per l'allievo
 4. L'allievo trova nel proprio **repository** l'eventuale codice di partenza e può modificare o aggiungere file a piacere
-5. Clonare il codice per lavorarci in locale, eseguire commit e push per salvare le modifiche nel **repository**. Si può lavorare sul codice direttamente da Visual Studio, Visual Studio Code oppure da un client Git qualsiasi (per esempio GitHub Desktop)
+5. Da questo momento l'allievo può: clonare il codice per lavorarci in locale, eseguire l'accesso a GitHub, eseguire commit e push per salvare le modifiche nel **repository**. L'insegnante che ha accesso alla **organization** vede tutte le modifiche dell'allievo e le può commentare con le **pull requests**
+Si può lavorare sul codice direttamente da Visual Studio (tutorial https://youtu.be/GCZ9x3yqkyc), Visual Studio Code oppure da un client Git qualsiasi (per esempio GitHub Desktop)
 
 ## Come organizzare una classe
 1. Creare una **organization** per ogni materia di una determinata classe di un determinato anno, utilizzando i prefissi per tenere tutto ordinato, per esempio ItisMajo-2021-3DINFO-Informatica oppure ItisMajo-2021-3DINFO-TPSIT
